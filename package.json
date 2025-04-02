@@ -1,0 +1,24 @@
+{
+    "name": "pptx-editor",
+    "version": "1.0.0",
+    "description": "A Node.js based PPTX editor to replace placeholders with dynamic values.",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js",
+        "build": "npm install"
+    },
+    "dependencies": {
+        "adm-zip": "^0.5.10",
+        "dotenv": "^16.4.7",
+        "express": "^4.18.2",
+        "form-data": "^4.0.0",
+        "node-fetch": "^3.3.2",
+        "xmldom": "^0.6.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+}
